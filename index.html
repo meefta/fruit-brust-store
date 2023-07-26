@@ -34,25 +34,145 @@
 <body class="font-lato">
     <header class="md:container md:mx-auto">
         
-       <nav class="bg-[#F85559] p-10 mt-5 rounded-[600px]">
-        <ul class="flex flex-wrap items-center justify-center ">
-            <div  class="flex flex-1 text-lg font-medium text-white ">
-                <li class="p-3"><a href="Home">Home</a></li>
-                <li class="p-3"><a href="Home">About Us</a></li>
-                <li class="p-3"><a href="Home">Shop</a></li>
-                <li class="p-3 "><a href="Home">All Fruits</a></li>
+
+       <nav class="md:bg-[#F85559] p-10 mt-5 md:rounded-[600px]">
+        <ul class="flex items-center justify-center ">
+
+
+            <div  class="flex flex-1 text-lg font-medium text-black md:text-white">
+                <li class="p-3 hover:text-sky-700"><a href="Home">Home</a></li>
+                <li class="p-3  hover:text-sky-700"><a href="Home">About Us</a></li>
+                <li class="p-3  hover:text-sky-700"><a href="Home">Shop</a></li>
+                <li class="p-3  hover:text-sky-700 "><a href="Home">All Fruits</a></li>
             </div>
+
             <div class="flex items-center flex-1 pl-5 gap-3">
                 <img class="justify-center" src="images/logo.png" alt="">
-                <li class="font-bold text-4xl text-white">Fruit Burst</li>
+                <li class="font-bold text-4xl text-black md:text-white">Fruit Burst</li>
             </div>
-            <div class="gap-4">
-                <input class="w-64 h-11 rounded-[50px]" type="search" placeholder=" search here">
+
+            <div class="gap-4 hidden lg:flex items-center ">
+                <input class="w-64 h-11 p-2 border border-slate-200 rounded-[50px]" type="search" placeholder=" search here">
                 <i class="fas fa-search"></i>
             </div>
         </ul>
        </nav>
+
+
+           <!-- banner or carouasl -->
+           <div class="carousel w-full mt-5">
+            <div id="slide1" class="carousel-item relative w-full ">
+              <div>
+                <div class="absolute w-full h-full text-gray-200  bg-black/40 flex flex-col justify-center items-center space-y-5">
+                <h2 class="text-center md:text-7xl lg:text-7xl sm:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
+                <h3 class="text-sm font-medium sm:mt-2">We supply highly quality organic products</h3>
+                <button class="btn hover:text-white hover:bg-[#F85559] bg-[#F85559] text-white border-none px-6 py-2  md:w-36">Shop Now</button>
+                </div>
+                <img src="/images/banner1.png" class="w-full h-64 md:h-auto object-cover" />
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <div>
+                    <div class="absolute w-full h-full text-gray-200  bg-black/40 flex flex-col justify-center items-center space-y-5">
+                    <h2 class="text-center md:text-7xl lg:text-7xl sm:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
+                    <h3 class="text-sm font-medium sm:mt-2">We supply highly quality organic products</h3>
+                    <button class="btn hover:text-white hover:bg-[#F85559] bg-[#F85559] text-white border-none px-6 py-2  md:w-36">Shop Now</button>
+                    </div>
+                    <img src="/images/banner2.png" class="w-full h-64 md:h-auto object-cover" />
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <div>
+                    <div class="absolute w-full h-full text-gray-200  bg-black/40 flex flex-col justify-center items-center space-y-5">
+                    <h2 class="text-center md:text-7xl lg:text-7xl sm:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
+                    <h3 class="text-sm font-medium sm:mt-2">We supply highly quality organic products</h3>
+                    <button class="btn hover:text-white hover:bg-[#F85559] bg-[#F85559] text-white border-none px-6 py-2  md:w-36">Shop Now</button>
+                    </div>
+                    <img src="/images/banner3.png" class="w-full h-64 md:h-auto object-cover" />
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <div>
+                    <div class="absolute w-full h-full text-gray-200  bg-black/40 flex flex-col justify-center items-center space-y-5">
+                    <h2 class="text-center md:text-7xl lg:text-7xl sm:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
+                    <h3 class="text-sm font-medium sm:mt-2">We supply highly quality organic products</h3>
+                    <button class="btn hover:text-white hover:bg-[#F85559] bg-[#F85559] text-white border-none px-6 py-2  md:w-36">Shop Now</button>
+                    </div>
+                    <img src="/images/banner4.png" class="w-full h-64 md:h-auto object-cover" />
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
     </header>
+
+
+    <main class="md:container md:mx-auto my-32">
+        <!-- deal sec -->
+        <div class=" flex-col md:flex md:flex-row items-center justify-between  ">
+            <div>
+                <h1 class="text-5xl font-extrabold mb-4">Deal of the day</h1>
+                <p class="w-[615px] text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:15;"></span>
+                  </span>
+                  <span>days</span>
+                </div> 
+                <span class="text-5xl">:</span> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:10;"></span>
+                  </span>
+                  <span>hours</span>
+                </div>
+                <span class="text-5xl">:</span> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:24;"></span>
+                  </span>
+                  <span>min</span>
+                </div>
+                <span class="text-5xl">:</span> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:2;"></span>
+                  </span>
+                  <span>sec</span>
+                </div>
+              </div>
+              
+
+            
+
+        </div>
+
+
+
+
+
+        <!-- for cards -->
+        <div>
+
+        </div>
+    </main>
 
 
 
